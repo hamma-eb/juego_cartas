@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000226;
+    position: relative;
+}
+
+
+.headerPaszamine {
+    width: 1440px;
+    height: 145px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.headerPaszamine div {
+    width: 500px;
+    height: 145px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid 3px #33FF00;
+}
+
+.headerPaszamine img {
+    width: 270px;
+    height: 145px;
+}
+
+.headerPaszamine div img {
+    width: 90px;
+    height: 90px;
+    box-shadow: 1px 1px 30px 1px #33FF00;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.headerPaszamine div h3 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #15AB63;
+}
+
+.paszamine3 {
+    width: 1440px;
+    height: 293px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.paszamine2 {
+    width: 1440px;
+    height: 293px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom:solid 3px white;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+.paszamine2::-webkit-scrollbar {
+    width: 1px;
+}
+.paszamine1 {
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.cartPaszamine {
+    width: 160px;
+    height: 235px;
+    background: #ffffff;
+    border: 2px solid #FFFFFF;
+ 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: all 1s;
+
+}
+
+.cartPosht {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: rotateY(180deg);
+    border-radius: 5px;
+    backface-visibility: hidden;
+   
+}
+
+.Mganancias {
+    margin-top: 20px;
+    float: left;
+    width: 84px;
+    height: 122px;
+    transform: rotateY(180deg);
+   
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: all 1s;
+    margin-right: -75px;
+
+}
+
+.Tganancias {
+    margin-top: 20px;
+    float: right;
+    width: 84px;
+    height: 122px;
+    transform: rotateY(180deg);
+  
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: all 1s;
+    margin-left: -70px;
+
+}
+
+.misGanancias {
+    width: 720px;
+    height: 100%;
+
+}
+
+.tedadBazi{
+    width: 85px;
+    height: 80px;
+    border-radius: 10vw;
+    border: solid 3px white;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.tusGanancias {
+    width: 720px;
+    height: 100%;
+}
+
+.carteErsali {
+    position: absolute;
+    top: 145px;
+    z-index: 1;
+    width: 1440px;
+    height: 780px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000c3;
+    display: none;
+}
+
+.cartNumero1 {
+    width: 140px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: left;
+}
+
+.cartNumero2 {
+    width: 140px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: right;
+}

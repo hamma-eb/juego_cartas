@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #000226;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paszamine {
+    margin-top: 100px;
+    position: relative;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paszamine_s {
+    width: 600px;
+    height: 800px;
+    background-color: #000226;
+    box-shadow: 2px 2px 80px 10px #1400FF;
+    overflow-y: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paszamine_s::-webkit-scrollbar {
+    width: 0px;
+}
+
+.navarB {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background-color: #000226;
+    margin-top: -50px;
+
+}
+
+.navarP {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    top: 850px;
+    background-color: #000226;
+
+}
+
+.userPaszamine {
+    width: 500px;
+    height: 120px;
+    background: #004DA8;
+    border: 1px solid #FFFFFF;
+    box-shadow: 2px 2px 30px 1px #326AAC;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.userPaszamine img {
+    width: 110px;
+    height: 110px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-left: 5px;
+
+}
+
+.userPaszamine_s {
+    width: 385px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.userPaszamine_s h3 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.userPaszamine_s input {
+    width: 150px;
+    height: 40px;
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #004DA8;
+    margin-left: 200px;
+
+}
+
+.notificacion_p {
+    width: 500px;
+    height: 100px;
+    background: #004DA8;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px 0px 20px 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.notificacion_p img {
+    width: 90px;
+    height: 90px;
+    border-radius: 18px;
+    object-fit: cover;
+    margin-left: 5px;
+}
+
+.notificacionP_s {
+    width: 405px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.notificacionP_s h3 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 20px 80px 0 0;
+}
+
+.notificacionP_s h4 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 150px;
+}
+
+.not_buttons {
+    width: 214px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0 0 130px;
+
+}
+
+.not_buttons input[value="SI!"] {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    background: #00A3FF;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+.not_buttons input[value="NO!"] {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    background: #006EAC;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
